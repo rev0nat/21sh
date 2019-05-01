@@ -46,5 +46,7 @@
       Try it out!
   pipes:
     $> ls ./ > testfile ; cat testfile | grep a | tail -n1
-    ```+Try it out!
-    ```
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
