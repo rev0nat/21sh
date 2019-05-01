@@ -53,3 +53,4 @@
     $> ls ./ > testfile ; cat testfile | grep a | tail -n1
     + Try it out!
     ```
+Have fun trying out our home made shell!
