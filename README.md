@@ -46,6 +46,5 @@
       Try it out!
   pipes:
     $> ls ./ > testfile ; cat testfile | grep a | tail -n1
-    ```diff
-      +Try it out!
+    ```+Try it out!
     ```
