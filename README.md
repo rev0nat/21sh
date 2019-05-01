@@ -41,15 +41,15 @@
   - Our shell manages redirections:
     ```diff
     $> echo 1 >out >&2 2>err
-    - Try it out!
+    + Try it out!
     ```
   - fd aggregating:
     ```diff
     $> cat abc 2<&-
-    - Try it out!
+    + Try it out!
     ```
   - pipes:
     ```diff
     $> ls ./ > testfile ; cat testfile | grep a | tail -n1
-    - Try it out!
+    + Try it out!
     ```
