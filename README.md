@@ -39,13 +39,17 @@
   We also manage UTF-8 Unicode in our shell. Try it out!
 ### Redirections and FileDescriptor aggregating
   - Our shell manages redirections:
-    $> echo 1 >out >&2 2>err
-      Try it out!
-  - fd aggregating:
-    $> cat abc 2<&-
-      Try it out!
-  - pipes:
-    $> ls ./ > testfile ; cat testfile | grep a | tail -n1
     ```diff
+    $> echo 1 >out >&2 2>err
+    - Try it out!
+    ```
+  - fd aggregating:
+    ```diff
+    $> cat abc 2<&-
+    - Try it out!
+    ```
+  - pipes:
+    ```diff
+    $> ls ./ > testfile ; cat testfile | grep a | tail -n1
     - Try it out!
     ```
