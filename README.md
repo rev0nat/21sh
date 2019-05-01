@@ -38,15 +38,14 @@
   - ^c will send an SIGINT to your line
   We also manage UTF-8 Unicode in our shell. Try it out!
 ### Redirections and FileDescriptor aggregating
-  Our shell manages redirections:
+  - Our shell manages redirections:
     $> echo 1 >out >&2 2>err
       Try it out!
-  fd aggregating:
+  - fd aggregating:
     $> cat abc 2<&-
       Try it out!
-  pipes:
+  - pipes:
     $> ls ./ > testfile ; cat testfile | grep a | tail -n1
-```diff
-+ this will be highlighted in green
-- this will be highlighted in red
-```
+    ```diff
+    - Try it out!
+    ```
